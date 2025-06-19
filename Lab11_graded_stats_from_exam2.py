@@ -69,7 +69,7 @@ stats = [
 ]
 
 try:
-    with open("stats.tx", "w") as file:
+    with open("stats.txt", "w") as file:
         for item in stats:
             file.write(item+"\n")
 except IOError:
